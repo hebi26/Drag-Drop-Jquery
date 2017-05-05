@@ -1,3 +1,53 @@
 /*******************************
 			  CSS
 *******************************/
+/**{
+  border: 2px solid black;
+}*/
+
+
+
+h1{
+  text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#drag {
+
+   width: 21%;
+   height: 150px;
+   margin: auto;
+ }
+
+ #drop {
+   position: absolute;
+   left: 33.75%;
+   width : 32.5%;
+   height: 600px;
+ }
+
+img #drag{
+  z-index: 1;
+
+}
+
+img #drop{
+  z-index: 3;
+
+}
+
+#bla{
+  margin-left: 42.5%;
+
+  width: 15%;
+}
+
+#bt{
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
